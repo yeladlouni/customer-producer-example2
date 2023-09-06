@@ -12,6 +12,7 @@ public class Customer {
         this.lastName = lastName;
         this.age = age;
         this.gender = gender;
+        this.salary = salary;
     }
 
     public int getId() {
