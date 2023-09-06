@@ -26,7 +26,7 @@ public class ProducerExample {
                     "last_name_"+i,
                     (int)new Random().nextGaussian()*(60-18+1)+18,
                     (new Random().nextBoolean()) ?'F':'M',
-                    new Random().nextDouble()*(50000-2600+1)+2600
+                    (new Random().nextDouble())*(50000-2600+1)+2600
             );
 
             String key = UUID.randomUUID().toString();
